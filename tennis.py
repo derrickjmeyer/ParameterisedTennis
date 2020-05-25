@@ -18,5 +18,5 @@ def score_tennis(player1_points, player2_points):
         return f"{player1_score}-{player2_score}"
 
 
-def end_game(player1_points, player2_points):
+def _end_game(player1_points, player2_points):
     return player1_points > 3 or player2_points > 3
