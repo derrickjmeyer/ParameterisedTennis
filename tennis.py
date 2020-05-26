@@ -1,6 +1,6 @@
 
 def score_tennis(player1_points, player2_points):
-    score_games = ["Love", "Fifteen", "Thirty", "Forty"]
+    score_names = ["Love", "Fifteen", "Thirty", "Forty"]
     if _end_game(player1_points, player2_points):
         leader = "Player 2"
         if player1_points > player2_points:
